@@ -8,6 +8,6 @@ function Main () {
             <DataArea />
         </>
     );
-;
+};
 
 export default Main;

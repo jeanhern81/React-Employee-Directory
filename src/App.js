@@ -6,14 +6,14 @@ import Header from "./components/Header";
 import "./App.css";
 
 function App() {
-  return (
+    return (
     <div className="App">
-      <Wrapper>
-        <Header />
+        <Wrapper>
+                <Header />
         <Main />
-      </Wrapper>
+        </Wrapper>
     </div>
-  );
+    );
 }
 
 export default App;
