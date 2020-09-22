@@ -5,7 +5,11 @@ import "../styles/Nav.css";
 
 function Nav() {
     return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="search-area col-4">
+            <SearchName />
+        </div>
+        {/*
         <button
             className="navbar-toggler"
             type="button"
@@ -14,16 +18,12 @@ function Nav() {
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
-        >
+    > Search
         <span className="navbar-toggler-icon" />
-        </button>
+        </button> */}
         <div className="collapse navbar-collapse row" id="navbarNav">
-        {/* <div className="input-group col-8">
-            <SearchDOB />
-        </div> */}
-        <div className="search-area col-4">
-            <SearchName />
-        </div>
+
+
         </div>
     </nav>
     );
