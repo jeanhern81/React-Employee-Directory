@@ -1,0 +1,15 @@
+
+body {
+    background-color: white;
+    
+}
+
+.name-cell{
+    text-transform: capitalize;
+    background-color: whitesmoke;
+}
+
+.name-cell {
+    text-transform: capitalize;
+
+}
