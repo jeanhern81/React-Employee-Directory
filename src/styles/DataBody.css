@@ -1,3 +1,16 @@
 .name-cell {
     text-transform: capitalize;
 }
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 9999px;
+}
+
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
